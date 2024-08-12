@@ -14,7 +14,7 @@ This project involves vehicle dales data to identify opportunities for improving
       - **Dodge:** $507,261
       - **Jeep:** $293,153
         
-   - **Insights:** Toyota leads in total sales, followed by Dodge. Jeep, though significantly behind, holds the third position indicating that Toyota and Dodge are dominant in the market, with Jeep being a solid competitor.
+   - **Insights:** Toyota leads in total sales, followed by Dodge. Jeep, though significantly behind, holds the third position. This indicates that Toyota and Dodge are dominant in the market, with Jeep being a solid competitor.
 
 ### 2. Peak Sales Periods
 
@@ -84,3 +84,86 @@ This project involves vehicle dales data to identify opportunities for improving
 
    - A linear regression model was used to analyze the relationship between sales volume and profitability.
    - The analysis indicated a positive correlation, meaning that as sales volume increases, profitability tends to rise. This underscores the importance of driving sales to boost overall profit.
+
+## Recommendations
+
+## 1. Sales Improvement Opportunities
+  - **Focus on High-Margin Models**
+
+     - **Toyota and Dodge:**
+         - **Toyota:** $568,133
+         - **Dodge:** $507,261
+
+     - **Profit Margins:**
+         - **Toyota:** $113,626.60
+         - **Dodge:** $101,452.20
+           
+     - **Strategy:** Increase marketing efforts for Toyota and Dodge during the months of August and September, where sales are highest. For instance, a 10% increase in marketing budget could lead to a potential sales increase of 5-7% during these periods, translating to an additional $25,000 to $35,000 in sales.
+
+
+
+
+## 2. Cost Reduction Strategies
+
+  - **Optimize Productions Costs**
+
+     - **Average Production Costs:** $44,161.62
+     - **Potential Savings:** By renegotiating supplier contracts or implementing lean manufacturing techniques, we could aim to reduce production costs by 5-10%. This could result in savings of approximately $2,200 to $4,400 per vehicle, improving overall profit margins by 5-8%.
+
+## 3. Customer Retention and Expansion
+
+**Objective:** Increase customer retention and repeat purchases by implementing a loyalty program.
+
+**Strategy and Potential Impact:**
+
+  - **Customer Retention Increase:** By introducing a loyalty program, we anticipate an increase in repeat customers by 10%.
+  - **Sales Growth:** This increase in repeat customers is expected to lead to a 3% rise in total sales.
+  -  **Financial Impact:** Considering the average sale per customer is $30,000, this strategy could result in approximately $90,000 in additional sales annually.
+
+**Example Calculation:**
+  - If our current total sales amount to $3 million annually, a 3% increase would add $90,000 to our annual revenue.
+  - This strategy not only boosts sales but also enhances customer satisfaction and brand loyalty, which is crucial for long-term business sustainability and growth.
+
+## Visualization and Reporting
+
+  - The analysis was visualized using Tableau, creating dashboards to provide actionable insights and support decision-making.
+
+  **Dashboards Created:**
+
+   -**1. Sales Trends Over Time:** Visualizes sales fluctuations and peak periods across 2011 and 2012.
+   -**2. Top-Selling Vehicles:** Highlights the best and worst-performing vehicle models.
+   -**3. Profit Margin Across Car Models:** Shows profitability across different manufacturers.
+   -**4. Sales Volume vs. Profitability (Linear Regression):** Analyzes the relationship between sales volume and profitability.
+
+## Conclusion
+
+The analysis done provides actionable insights into the vehicle sales landscape, identifying both opportunities for growth and areas for cost reduction. By imlementing the recommended strategies, the business can:
+
+  - **Increase Sales:** A potential 5-10% increase, adding $110,000 to $220,000 to total sales.
+  - **Reduce Costs:** Potential savings of 8-10% in production and logistics, translating to $140,000 to $190,000 annually.
+  - **Improve Profit Margins:**  Optimizing sales and cost strategies could result in a 7-12% improvement in overall profit margins.
+
+By focusing on these strategies, the business can enhance its market position and drive significant economic value.
+
+## Appendices 
+
+## Sales Statistics 
+
+  - **Average Sales:** $55,202.03
+  - **Median Sales:** $31,723.50
+  - **Total Sales(2011-2012):** $2,208,081
+
+## Price Statistics
+
+  - **Average Price:** $27,455.68
+  - **Median Price:** $23,139.00
+
+## Profit Margin Statistics
+
+  - **Average Profit Margin:** $11,040.41
+  - **Median Profit Margin:** $6,344.70
+
+## Cost of Production Statistics
+
+   - **Average Cost of Production:** $44,161.62
+   - **Median Cost of Production:** $25,378.80
