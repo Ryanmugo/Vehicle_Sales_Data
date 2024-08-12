@@ -135,6 +135,12 @@ This project involves vehicle dales data to identify opportunities for improving
    -**3. Profit Margin Across Car Models:** Shows profitability across different manufacturers.
    -**4. Sales Volume vs. Profitability (Linear Regression):** Analyzes the relationship between sales volume and profitability.
 
+   **Dashboard Overview:**
+
+   - To see an image of the dashboard, click the image below:
+
+   [![Vehicle Sales Dashboard](https://github.com/Ryanmugo/Vehicle_Sales_Data/blob/main/Vehicle%20Sales%20Dashboard.png)](https://github.com/Ryanmugo/Vehicle_Sales_Data/blob/main/Vehicle%20Sales%20Dashboard.png)
+
 ## Conclusion
 
 The analysis done provides actionable insights into the vehicle sales landscape, identifying both opportunities for growth and areas for cost reduction. By imlementing the recommended strategies, the business can:
