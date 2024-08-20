@@ -2,41 +2,92 @@
 
 ## Project Overview
 
-This project involves vehicle dales data to identify opportunities for improving sales and reducing costs. The analysis focuses on key indicators such as sales trends, profitability, and customer segmentation, using Excel for data processing and Tableau for visualization. The goal is to deliver actionable insights that can lead to tangible economic benefits.
+This analysis was conducted to provide insights into vehicle sales, identify opportunities for cost reduction, and propose strategies for improving profits and sales in the upcoming year (2013). The analysis was performed using two primary tools: Excel and Tableau.
 
 
-## Key Findings
+## Key Objectives:
 
-### 1. Sales by Manufacturer
+  - **Reduce Production Costs:** Assess potential savings through cost reduction strategies.
+  - **Improve Profit Margins:** Identify high-margin products and areas where profitability can be enhanced.
+  - **Boost Sales**: Analyze sales trends to recommend strategies for increasing sales in 2013.
 
-   - **Top 3 Manufacturers by Sales:**
-      - **Toyota:** $568,133
-      - **Dodge:** $507,261
-      - **Jeep:** $293,153
-        
-   - **Insights:** Toyota leads in total sales, followed by Dodge. Jeep, though significantly behind, holds the third position. This indicates that Toyota and Dodge are dominant in the market, with Jeep being a solid competitor.
+### 1. Excel Analysis
 
-### 2. Peak Sales Periods
+#### 1.1 Data Preparation
 
-   - **Top Sales Days:**
-      - **September 1, 2011:** $181,749
-      - **November 2, 2011:** $91,561
-      - **August 2, 2011:** $88,094
-    
-   - **Insights:** Sales peak during late summer and early autumn, suggesting possible seasonality. Marketing efforts could be intensified during these periods to maximize sales.
+   - **Data Cleaning:** The raw dataset was first cleaned in Excel. This involved:
 
-### 3. Sales Trends Over the Years
-  - **2011:** $1,514,383
-  - **2012:** $693,698  
-  - **Insights:** There is a noticeable decline in sales from 2011 to 2012, with a drop of over 54%. This could be attributed to various factors such as market saturation, economic conditions, or increased competition. Understanding the causes behind this decline is crucial for strategic planning.
+        - **Removing Duplicate Records:** Ensured that there were no duplicate entries to maintain data accuracy.
+        - **Handling Missing Data:** Missing data points were either filled based on available information or removed if they were insignificant.
+        - **Standardization:** Ensured that all data was in a consistent format for easier analysis (e.g standardizing date formats).
 
-### 4. Profit Margin by Manufacturer
+#### 1.2 Analysis Approach
 
-- **Top 3 Manufacturers by Sales:**
-  - **Toyota:** $113,626.60
-  - **Dodge:** $101,452.20
-  - **Jeep:** $58,630.60 
-  - **Insights:** Toyota not only leads in sales but also in profit margins, making it the most profitable manufacturer. Dodge follows closely, indicating strong overall performance.
+   - **Overall Summary:** The analysis in Excel provided a broad, unfiltered overview of the entire dataset without focusing on specific years or quarters.
+   - **Pivot Tables:** Pivot tables were used extensively to:
+
+       - Summarize total sales by manufacturer.
+       - Identify the top 10 best-selling cars across the period.
+       - Analyze peak sales during specific launch periods.
+       - Determine the best-performing cars in terms of fuel efficiency, profit margins and pricing.
+
+#### 1.3 Key Findings from Excel
+
+   - **Top 10 Best-Selling Cars:** Identified Toyota as the top-selling manufacturer with total sales of 568,133 units.
+   - **Profit Margins:** Toyota also led in profit margins, indicating strong profitability.
+   - **Fuel Efficiency:** Dodge and Toyota stood out for their balance of fuel capacity and efficiency.
+   - **High-Priced Cars:** Dodge had the highest total price among the analyzed cars.
+   - **Cars with Below-Average Margins:** Chevrolet had the lowest profit margins, highlighting potential areas for improvement.
+
+#### 1.4 Limitations of Excel Analysis
+
+  - **Lack of Time-Baed Filtering:** The Excel analysis did not segment data by specific years or quarters. It provided a comprehensive overview of the entire dataset without temporal filters, which was later addressed in the Tableau analysis.
+
+
+### 2. Tableau Analysis
+
+#### 2.1 Data Import and Preparation
+
+   - The cleaned data from Excel was imported into Tableau for further analysis.
+   - **Filtering by Year and Quarter:** Tableau allowed for dynamic filtering of the data by year and quarter, enabling a more granular analysis of trends over time.
+
+
+#### 2.2. Analysis Approach
+
+  - **Sales Trend Over Time:** Tableau's visualization capabilities were used to analyze sales trends across diferent quarters in 2011 and 2012.
+  - **Cost Reduction Impact:** Simulated the impact of a 5% reduction in production costs on overall savings and profitability.  
+  - **Performance Shift Analysis:** Compared performance shifts between specific quarters (e.g Q2 2011 vs Q2 2012) to identify changes in sales strategies or market conditions.
+  - **Detailed Product Analysis:** Tableau was used to drill down into specific products, manufacturers and periods to extract actionable insights. 
+
+#### 2.3 Profit Margin by Manufacturer
+
+  - **Significant Decline in Q1 2012:** Noticed a sharp decline in sales in Q1 2012 compared to Q1 2011, indicating potential market or internal challenges.
+  - **Strong Year-End Performance in 2011:** Q4 2011 showed a significant peak in sales, possibly due to successful promotions or seasonal demand.
+  - **Partial Recovery in Q2 2012:** After a poor Q1 2012, sales recovered in Q2, suggesting that some corrective actions might have been taken.
+  - **Cost Savings Potential:** Demonstrated that a 5% reduction in production costs could lead to significant savings, particularly in a year with higher sales.
+
+#### 2.4 Advantages of Tableau Analysis
+
+  - **Time-Based Filtering:** Unlike Excel, Tableau provided the flexibility to filter and analyze data by specific time periods (year and quarter), offering deeper insights.
+  - **Interactive Visualizations:** Tableau's interactive dashboards allowed for real-time exploration of data, making it easier to identify trends and patterns.
+
+
+### 3. Recommendations
+
+Based on the analysis conducted using Excel and Tableau, the following recommendations are proposed:
+
+  - **Implement Cost Reduction Strategies:** Focus on reducing production costs by at least 5% to improve profitability, especially during low sales periods.
+  - **Enhance Q4 Promotions:** Replicate successful strategies from Q4 2011 to boost year-end sales in 2013.
+  - **Monitor Market Trends:** Keep a close watch on market conditions and consumer preferences to avoid drastic declines like those observed in Q1 2012.
+  - **Invest in High-Margin Products:** Prioritize the production and marketing of high-margin products, such as those from Toyota and Dodge, to maximize profits.
+  - **Address Below-Average Margins:** Investigate and address the factors leading to low profit margins for manufacturers like Chevrolet.
+
+
+### 4. Conclusion
+
+The combination of Excel and Tableau provided a comprehensive analysis of vehicle sales data, from broad overviews to detailed time-based insights. While Excel offered a solid foundation for understanding overall trends, Tableau enabled deeper exploration, particularly with its powerful filtering and visualization capabilities. Together, these tools allowed for a thorough analysis that informed strategic recommendations for improving sales and profitability in 2013. 
+ 
+  
  
 ### 5. Fuel Capacity and Efficiency
 
